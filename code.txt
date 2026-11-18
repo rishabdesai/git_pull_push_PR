@@ -8,7 +8,33 @@ git init
 git config --gloval user.name "name"
 git config --gloval user.email "name@email.com"
 
-#once the global values set, they are visible in ~/.gitconfig
+#once the global values set, they are visible in 
+~/.gitconfig
 
+```
+
+## git remote
+# visit github.com > login > click on "+ create new repo" > provide name > done > copy the repo url
+
+
+```bash
+#get remote repo details
+git remote -v
+
+#connect the local repo to the remote once
+git remote add origin <<repo link>>
+
+#if the branch name is not main - the change the branch name
+git branch -M main
+
+#remove the remote from repo
+git remote remove origin
+
+#push the changes
+git push origin main
+
+#set the upstream branch
+git push --set-upstream origin main
+git push -u origin main
 
 ```
