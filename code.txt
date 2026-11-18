@@ -1,0 +1,14 @@
+## git - pull & push
+
+```bash
+#initialize git
+git init
+
+# set global parameters
+git config --gloval user.name "name"
+git config --gloval user.email "name@email.com"
+
+#once the global values set, they are visible in ~/.gitconfig
+
+
+```
